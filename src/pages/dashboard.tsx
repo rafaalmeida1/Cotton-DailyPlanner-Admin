@@ -45,8 +45,8 @@ export default function Dashboard() {
           <h1 className="text-3xl font-bold text-gray-900">Admin</h1>
         </div>
       </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <main className="">
+        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 flex-1">
           {/* Replace with your content */}
           <div className="px-4 py-6 sm:px-0 flex flex-col items-center justify-center">
             <form className="mb-5">

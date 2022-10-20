@@ -42,11 +42,7 @@ export function Header() {
                                                 <div>
                                                     <Menu.Button className="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
                                                         <span className="sr-only">Open user menu</span>
-                                                        <img
-                                                            className="h-8 w-8 rounded-full"
-                                                            src="https://github.com/rafaalmeida1.png"
-                                                            alt=""
-                                                        />
+                                                        <span className="text-white rounded-full bg-gray-700 hover:bg-gray-600 duration-200 p-3">Rafael Almeida</span>
                                                     </Menu.Button>
                                                 </div>
                                                 <Transition
@@ -110,13 +106,6 @@ export function Header() {
                     <Disclosure.Panel className="md:hidden">
                         <div className="pt-4 pb-3 border-t border-gray-700">
                             <div className="flex items-center px-5">
-                                <div className="flex-shrink-0">
-                                    <img
-                                        className="h-10 w-10 rounded-full"
-                                        src="https://github.com/rafaalmeida1.png"
-                                        alt=""
-                                    />
-                                </div>
                                 <div className="ml-3">
                                     <div className="text-base font-medium leading-none text-white">Rafael Almeida</div>
                                     <div className="text-sm font-medium leading-none text-gray-400">rafaprof312@gmail.com</div>
